@@ -193,12 +193,15 @@ img{
     }
 
 }
-@media screen (max-width:900px) and (min-width:575px) {
+@media screen and (max-width:900px) and (min-width:578px) {
     .banner{
         flex-direction: column;
     }
     .article{
         width:80%;
-        
-    }
+     }
+     .main{
+        width:100%;
+        flex-direction: column;
+     }
 }
